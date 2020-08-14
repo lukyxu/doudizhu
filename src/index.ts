@@ -4,8 +4,8 @@ import './css//main.css';
 import {Button} from "button";
 
 const app = new PIXI.Application({
-    width: window.innerWidth,
-    height: window.innerHeight,
+    width: 1280,
+    height: 720,
     backgroundColor: 0x0099ff,
     resolution: window.devicePixelRatio || 1 });
 document.body.appendChild(app.view);
